@@ -6,39 +6,43 @@ import styles from './styles';
 
 interface ProductItemProps {
     item: {
-        id: number,
-        store: string,
-        title: string,
-        image: string,
-        avgRating: number,
-        ratings: number,
-        price: number,
-        oldPrice?: number,
+        id: number;
+        Title: string;
+        Store: string;
+        Price: number;
+        Image: string;
+        Ratings: number;
+        AvgRating: number;
+        OldPrice: number;
     };
 }
 
 const ProductItem = ({item}: ProductItemProps) => {
-
   return (
       <View style={styles.root}>
       <View style={styles.container}>
-        <Image style={styles.image} source={{uri: item.image}}/>
+        <Image style={styles.image} source={{uri: item.Image}}/>
         <View>
           <Text style={styles.title} numberOfLines={3}>
-            {item.title}
+            {item.Title}
           </Text>
-          <Text style={styles.price}>
-            {item.price}
+          <View style={styles.oPrice}>
+            <Text style={styles.price}>
+            {item.Price} 
           </Text>
+          <Text style={styles.oldPrice}>
+            {item.OldPrice && (<Text style={styles.oldPrice}>{item.OldPrice}</Text>)}
+          </Text>
+          </View>
           <Text style={styles.store}>
-            {item.store}
+            {item.Store} 
           </Text>
-          {/*Ratings*/}
           <View style={styles.ratingsContainer}>
             <FontAwesome name="star" size={11} color="#59cf23" />
             <FontAwesome name="star" size={11} color="#59cf23" />
             <FontAwesome name="star-half-full" size={11} color="#59cf23" />
             <FontAwesome name="star-o" size={11} color="#59cf23" />
+            <Text style={styles.ratingsText}>{item.Ratings}</Text>
           </View>
         </View>
       </View>

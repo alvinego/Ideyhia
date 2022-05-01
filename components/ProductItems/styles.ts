@@ -21,9 +21,19 @@ const styles = StyleSheet.create({
     fontSize: 16,
     fontWeight: 'bold',
   },
+  oPrice: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    alignContent: 'center',
+  },
 
   price: {
     fontSize: 12,
+    fontWeight: 'bold',
+  },
+  oldPrice: {
+    fontSize: 8,
+    textDecorationLine: 'line-through',
   },
   root: {
     flexDirection: 'row',
@@ -37,6 +47,9 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     backgroundColor:'#fcffff32',
     alignItems: 'center',
+  },
+  ratingsText: {
+    fontSize: 8,
   },
 })
 

@@ -997,4 +997,5 @@ export default [{"id":1,"Title":"Roxi","Store":"Browsetype","Price":"$1462.35","
 {"id":997,"Title":"Jaymee","Store":"Avamm","Price":"$1656.29","Image":"http://dummyimage.com/129x100.png/dddddd/000000","Ratings":216,"AvgRatings":2,"OldPrice":"$571.23"},
 {"id":998,"Title":"Bartel","Store":"Centizu","Price":"$939.04","Image":"http://dummyimage.com/199x100.png/5fa2dd/ffffff","Ratings":562,"AvgRatings":5,"OldPrice":"$201.29"},
 {"id":999,"Title":"Decca","Store":"Thoughtstorm","Price":"$1192.30","Image":"http://dummyimage.com/130x100.png/5fa2dd/ffffff","Ratings":915,"AvgRatings":2,"OldPrice":"$972.93"},
-{"id":1000,"Title":"Millicent","Store":"DabZ","Price":"$1301.19","Image":"http://dummyimage.com/248x100.png/ff4444/ffffff","Ratings":939,"AvgRatings":3,"OldPrice":"$348.17"}]
+{"id":1000,"Title":"Millicent","Store":"DabZ","Price":"$1301.19","Image":"http://dummyimage.com/248x100.png/ff4444/ffffff","Ratings":939,"AvgRatings":3,"OldPrice":"$348.17"},
+];

@@ -8,10 +8,10 @@ import products from '../../data/products';
 const HomeScreen = () => {
   return (
     <View style={styles.root}>
-      <ProductItem item={products[0]}/>
+      <ProductItem item = {products[0]}/>
     </View>
-  )
-}
+  );
+};
 
 const styles = StyleSheet.create({
   root: {
