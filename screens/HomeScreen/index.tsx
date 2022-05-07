@@ -12,6 +12,7 @@ const HomeScreen = () => {
       <FlatList
         data={products}
         renderItem={({item}) => <ProductItem item={item}/> }
+        numColumns={2}
       />
     </View>
   );

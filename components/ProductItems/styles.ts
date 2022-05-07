@@ -11,8 +11,8 @@ const styles = StyleSheet.create({
   },
 
   image: {
-    width: 160,
-    height: 300,
+    width: 140,
+    height: 250,
     marginTop: 3,
     resizeMode: 'cover'
   },
@@ -36,9 +36,10 @@ const styles = StyleSheet.create({
     textDecorationLine: 'line-through',
   },
   root: {
+    flex: 2,
     flexDirection: 'row',
     padding: 2,
-    marginTop: 30
+    margin: 3,
   },
   store: {
     fontSize: 12,
