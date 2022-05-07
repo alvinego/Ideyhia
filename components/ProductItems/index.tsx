@@ -2,6 +2,7 @@ import { View, Text, StyleSheet, Image } from 'react-native';
 import React from 'react';
 import { FontAwesome } from '@expo/vector-icons';
 import styles from './styles';
+import StarRating from '../Design/StarRating';
 
 
 interface ProductItemProps {
@@ -12,12 +13,18 @@ interface ProductItemProps {
         Price: number;
         Image: string;
         Ratings: number;
-        AvgRating: number;
+        AvgRatings: number;
         OldPrice: number;
     };
+
 }
 
+
+
+
 const ProductItem = ({item}: ProductItemProps) => {
+
+
   return (
       <View style={styles.root}>
       <View style={styles.container}>
@@ -38,15 +45,11 @@ const ProductItem = ({item}: ProductItemProps) => {
             {item.Store} 
           </Text>
           <View style={styles.ratingsContainer}>
-            <FontAwesome name="star" size={11} color="#59cf23" />
-            <FontAwesome name="star" size={11} color="#59cf23" />
-            <FontAwesome name="star-half-full" size={11} color="#59cf23" />
-            <FontAwesome name="star-o" size={11} color="#59cf23" />
+            <StarRating rating={item.AvgRatings}/>
             <Text style={styles.ratingsText}>{item.Ratings}</Text>
           </View>
         </View>
       </View>
-      
     </View>
 
   );
