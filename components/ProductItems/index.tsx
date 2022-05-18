@@ -5,6 +5,7 @@ import styles from './styles';
 import StarRating from '../Design/StarRating';
 
 
+
 interface ProductItemProps {
     item: {
         id: number;
@@ -42,7 +43,7 @@ const ProductItem = ({item}: ProductItemProps) => {
           </Text>
           </View>
           <Text style={styles.store}>
-            {item.Store} 
+            {item.Store}
           </Text>
           <View style={styles.ratingsContainer}>
             <StarRating rating={item.AvgRatings}/>

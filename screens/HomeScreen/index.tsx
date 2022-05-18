@@ -2,15 +2,15 @@ import { View, Text, StyleSheet, Image, FlatList } from 'react-native';
 import React from 'react';
 import { FontAwesome } from '@expo/vector-icons';
 import ProductItem from '../../components/ProductItems';
-import products from '../../data/products';
+import product from '../../data/products';
 
 
 const HomeScreen = () => {
   return (
     <View style={styles.root}>
-      {/* <ProductItem item = {products[0]}/> */}
+      {/* <ProductItem item = {product[0]}/> */}
       <FlatList
-        data={products}
+        data={product}
         renderItem={({item}) => <ProductItem item={item}/> }
         numColumns={2}
       />

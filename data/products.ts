@@ -1,4 +1,4 @@
-export default [{"id":1,"Title":"Roxi","Store":"Brutyhr","Price":"$1462.35","Image":"https://www.ccarprice.com/products/Porsche_918_Spyder.jpg","Ratings":1340,"AvgRatings":3.2,"OldPrice":"$122.60"},
+export default[{"id":1,"Title":"Roxi","Store":"Brutyhr","Price":"$1462.35","Image":"https://www.ccarprice.com/products/Porsche_918_Spyder.jpg","Ratings":1340,"AvgRatings":3.2,"OldPrice":"$122.60"},
 {"id":2,"Title":"Etti","Store":"Buzzbean","Price":"$938.51","Image":"http://dummyimage.com/184x100.png/dddddd/000000","Ratings":1019,"AvgRatings":4,"OldPrice":"$212.34"},
 {"id":3,"Title":"Karlyn","Store":"Jabbersphere","Price":"$652.53","Image":"http://dummyimage.com/190x100.png/5fa2dd/ffffff","Ratings":1492,"AvgRatings":4,"OldPrice":"$608.96"},
 {"id":4,"Title":"Evangelin","Store":"Aibox","Price":"$1885.69","Image":"http://dummyimage.com/234x100.png/cc0000/ffffff","Ratings":943,"AvgRatings":5,"OldPrice":"$442.65"},
