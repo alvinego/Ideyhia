@@ -19,7 +19,14 @@ const styles = StyleSheet.create({
   },
   store: {
     fontSize: 12,
+    marginVertical: 6,
+    lineHeight: 18,
   },
+  root: {
+    padding: 10,
+    backgroundColor: 'white',
+  }
 });
+
 
 export default styles;
